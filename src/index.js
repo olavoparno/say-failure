@@ -9,7 +9,7 @@ const mainPath = path.dirname(fs.realpathSync(__filename))
 const soundPath = path.join(mainPath, './audios/wololo')
 const windowsScript = path.join(mainPath, './forWindows.jscript')
 
-const wololo = () => {
+const sayWololo = () => {
     const commandsForEachPlatform = {
       linux: `paplay ${soundPath}.ogg`,
       win32: `cscript /E:JScript /nologo "${windowsScript}" "${soundPath}.mp3"`,
@@ -22,4 +22,4 @@ const wololo = () => {
     return execPromise(codeToExecute)
 }
 
-module.exports = wololo
+module.exports = sayWololo
