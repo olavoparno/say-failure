@@ -1,0 +1,25 @@
+{
+  "name": "wololo",
+  "version": "0.0.1",
+  "description": "Ayo yo yo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:olavoparno/wololo.git"
+  },
+  "author": "Olavo Parno <olavoparno@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "wololo": "./src/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/olavoparno/wololo/issues"
+  },
+  "homepage": "https://github.com/olavoparno/wololo#readme",
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
