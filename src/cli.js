@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
-const meow = require('meow');
-const sayWololo = require('./index')
+const meow = require("meow");
+const sayFailure = require("./index");
 
 const cliMode = async ({ flags }) => {
-  while(true)
-    await sayWololo()
-}
+  while (true) await sayFailure();
+};
 
-const cliInterface = meow({})
-cliMode(cliInterface)
+const cliInterface = meow({});
+cliMode(cliInterface);

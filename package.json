@@ -1,24 +1,24 @@
 {
-  "name": "say-wololo",
+  "name": "say-failure",
   "version": "0.0.1",
-  "description": "Ayo yo yo",
+  "description": "Failure!",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:olavoparno/say-wololo.git"
+    "url": "git+ssh://git@github.com:olavoparno/say-failure.git"
   },
   "author": "Olavo Parno <olavoparno@gmail.com>",
   "license": "MIT",
   "bin": {
-    "say-wololo": "./src/cli.js"
+    "say-failure": "./src/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/olavoparno/say-wololo/issues"
+    "url": "https://github.com/olavoparno/say-failure/issues"
   },
-  "homepage": "https://github.com/olavoparno/say-wololo#readme",
+  "homepage": "https://github.com/olavoparno/say-failure#readme",
   "dependencies": {
     "meow": "^5.0.0"
   }
