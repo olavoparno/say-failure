@@ -4,7 +4,7 @@
   "description": "Ayo yo yo",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/cli.js"
   },
   "repository": {
     "type": "git",
